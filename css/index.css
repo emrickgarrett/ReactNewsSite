@@ -90,6 +90,20 @@ body{
 	height:100vh;
 }
 
+@media screen and (max-width: 1400px){
+	.page_content{
+		width:95%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.page_content{
+		width:97%;
+	}
+}
+
+
+
 .home-header-container{
 	position:relative;
 	display:block;
