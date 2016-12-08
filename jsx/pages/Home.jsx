@@ -17,7 +17,7 @@ class Home extends React.Component{
 	}
 
 	articleClicked(num){
-		hashHistory.push('/Article?article_id=' + num);
+		hashHistory.push('/article?article_id=' + num);
 	}
 
 	render(){

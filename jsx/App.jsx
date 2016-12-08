@@ -29,8 +29,9 @@ class App extends React.Component{
 					<Route path="about" component={About}></Route>
 					<Route path="top" component={Top}></Route>
 					<Route path="contact" component={Contact}></Route>
-					<Route path="Article" component={Article}></Route>
+					<Route path="article" component={Article}></Route>
 					<Route path="404" component={p404}></Route>
+					<Route path="*" component={p404} />
 				</Route>
 			</Router>
 		</div>
