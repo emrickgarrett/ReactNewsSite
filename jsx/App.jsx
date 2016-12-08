@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, IndexRoute, hashHistory} from 'react-router';
 
-import DefaultHeader from './components/header_components/default_header.jsx';
-
 //Page Imports
 import About from './pages/About.jsx';
 import Home from './pages/Home.jsx';
@@ -12,7 +10,7 @@ import Top from './pages/Top.jsx';
 
 import Content from './Content.jsx';
 
-//These are default styles that are shared between
+//These are default styles that are shared between pages
 var css = require("../css/index.css");
 
 class App extends React.Component{
@@ -22,7 +20,6 @@ class App extends React.Component{
 	render(){
 		return(
 		<div>
-			<DefaultHeader/>
 			<Router history={hashHistory}>
 				<Route path="/" component={Content}>
 					<IndexRoute component={Home}></IndexRoute>

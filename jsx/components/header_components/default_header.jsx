@@ -37,10 +37,10 @@ class Navigation extends React.Component{
 	render(){
 		return(
 			<ul ref="nav_list">
-				<li><a href="/#/home">Home</a></li>
-				<li><a href="/#/top">Top</a></li>
-				<li><a href="/#/about">About</a></li>
-				<li><a href="/#/contact">Contact</a></li>
+				<li><Link to='home'>Home</Link></li>
+				<li><Link to='top'>Top</Link></li>
+				<li><Link to='about'>About</Link></li>
+				<li><Link to='contact'>Contact</Link></li>
 			</ul>
 		);
 	}
