@@ -33,7 +33,7 @@ function Heading(props){
 	return(
 		<div>
 			<h2 className='prev-title'>{props.title}</h2>
-			<h4 className='prev-author-date'>{props.author} : {props.date}</h4>
+			<span className='prev-author-date'>{props.author} : {props.date}</span>
 		</div>
 	);
 }

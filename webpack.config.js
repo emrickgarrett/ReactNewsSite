@@ -22,7 +22,8 @@ var config = {
 					presets: ['es2015', 'react']
 				}
 			},
-			{test: /\.css$/, loader: 'style-loader!css-loader' }
+			{test: /\.css$/, loader: 'style-loader!css-loader' },
+			{test: /\.json$/, loader: 'json'}
 		]
 	}
 };
