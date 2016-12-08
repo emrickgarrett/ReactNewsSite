@@ -82,50 +82,87 @@ body{
 /* Page Content Styles */
 
 .page_content{
-	padding:10px 20px;
-	margin:0 5px;
+	margin: 0 auto;
+	width:80%;
 }
 
-/* Article Styles
-
-	/* PreviewArticle Styling ImageBackground set in PreviewArticle.jsx */
-	.prev-article{
-		position:relative;
-		display:inline-block;
-		cursor: hand;
-		cursor: pointer;
-	}
-
-	.prev-article:hover{
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), inset 0px -7em 3em -7em rgba(0,0,0,0.6);
-		opacity:0.9;
-	}
-
-	.prev-title{
-		position:absolute;
-		bottom:0;
-		margin:0;
-		padding:0 0 0 2px;
-		color:white;
-		text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-	}
-
-	.prev-author-date{
-		position:absolute;
-		right:0;
-		top:0;
-		margin:0;
-		padding:0;
-		font-size:.8em;
-		color:black;
-		background:white;
-	}
-
-	/* FullArticle Styling */
-
-/* End Article Styles */
-
-/* Space between Preview Articles */
-.article-container > div:not(:first-child){
-	margin-left:1em;
+.home-header-container{
+	position:relative;
+	display:block;
 }
+
+.home-title{
+	display:inline-block;
+	font-size:3em;
+	padding: .5em 0 0 0;
+}
+
+.home-date{
+	position:absolute;
+	right:0;
+	bottom:0;
+	font-size:1.5em;
+	padding: 0;
+}
+
+.page_content > div > hr{
+	margin: 0 0 1em 0;
+}
+
+	/* Article Styles
+
+		/* PreviewArticle Styling ImageBackground set in PreviewArticle.jsx */
+		.prev-article{
+			position:relative;
+			display:inline-block;
+			cursor: hand;
+			cursor: pointer;
+		}
+
+		.prev-article:hover{
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), inset 0px -7em 3em -7em rgba(0,0,0,0.6);
+			opacity:0.9;
+		}
+
+		.prev-title{
+			position:absolute;
+			bottom:0;
+			margin:0;
+			padding:0 0 0 2px;
+			color:white;
+			text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+		}
+
+		.prev-author-date{
+			position:absolute;
+			right:0;
+			top:0;
+			margin:0;
+			padding:0;
+			font-size:.8em;
+			color:black;
+			background:white;
+		}
+
+		/* FullArticle Styling */
+
+		/* End Full Article Styling */
+
+		/* Space between Preview Articles */
+		.article-container > div{
+			margin: .5em;
+			display:inline-block;
+		}
+
+		.article-container{
+			text-align:center;
+			padding:0;
+			margin:auto;
+			width:auto;
+		}
+
+		/* End Space Between Preview Articles */
+
+	/* End Article Styles */
+
+/* End Page Content Styles */

@@ -15,6 +15,38 @@
 					"date": "December 11th, 2016",
 					"story": "Lorem Ipsum Dolerum BLah",
 					"image": "http://pad1.whstatic.com/images/thumb/a/af/Write-a-News-Article-Step-3-Version-2.jpg/aid1093007-728px-Write-a-News-Article-Step-3-Version-2.jpg"
+				},
+				{
+					"id": "2",
+					"title": "How to create a News Site",
+					"author": "Garrett Emrick",
+					"date": "December 11th, 2016",
+					"story": "Lorem Ipsum Dolerum BLah",
+					"image": "http://pad1.whstatic.com/images/thumb/a/af/Write-a-News-Article-Step-3-Version-2.jpg/aid1093007-728px-Write-a-News-Article-Step-3-Version-2.jpg"
+				},
+				{
+					"id": "3",
+					"title": "How to create a News Site",
+					"author": "Garrett Emrick",
+					"date": "December 11th, 2016",
+					"story": "Lorem Ipsum Dolerum BLah",
+					"image": "http://pad1.whstatic.com/images/thumb/a/af/Write-a-News-Article-Step-3-Version-2.jpg/aid1093007-728px-Write-a-News-Article-Step-3-Version-2.jpg"
+				},
+				{
+					"id": "4",
+					"title": "How to create a News Site",
+					"author": "Garrett Emrick",
+					"date": "December 11th, 2016",
+					"story": "Lorem Ipsum Dolerum BLah",
+					"image": "http://pad1.whstatic.com/images/thumb/a/af/Write-a-News-Article-Step-3-Version-2.jpg/aid1093007-728px-Write-a-News-Article-Step-3-Version-2.jpg"
+				},
+				{
+					"id": "5",
+					"title": "How to create a News Site",
+					"author": "Garrett Emrick",
+					"date": "December 11th, 2016",
+					"story": "Lorem Ipsum Dolerum BLah",
+					"image": "http://pad1.whstatic.com/images/thumb/a/af/Write-a-News-Article-Step-3-Version-2.jpg/aid1093007-728px-Write-a-News-Article-Step-3-Version-2.jpg"
 				}
 			]
 }
