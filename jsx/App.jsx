@@ -7,6 +7,8 @@ import About from './pages/About.jsx';
 import Home from './pages/Home.jsx';
 import Contact from './pages/Contact.jsx';
 import Top from './pages/Top.jsx';
+import Article from './pages/Article.jsx';
+import p404 from './pages/p404.jsx';
 
 import Content from './Content.jsx';
 
@@ -27,6 +29,8 @@ class App extends React.Component{
 					<Route path="about" component={About}></Route>
 					<Route path="top" component={Top}></Route>
 					<Route path="contact" component={Contact}></Route>
+					<Route path="Article" component={Article}></Route>
+					<Route path="404" component={p404}></Route>
 				</Route>
 			</Router>
 		</div>
