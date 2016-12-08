@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {hashHistory} from 'react-router'
 
 class PreviewArticle extends React.Component{
 	constructor(){
 		super();
 	}
+
+	articleClicked(num){
+		hashHistory.push('/article?article_id=' + num);
+	}
+
 	render(){
 
 		var styles = {
@@ -19,7 +25,7 @@ class PreviewArticle extends React.Component{
 		}
 
 		return(
-		<div className='prev-article' style={styles.divBackground}>
+		<div className='prev-article' onClick={() => this.articleClicked(this.props.article.id)} style={styles.divBackground}>
 			<Heading title={this.props.article.title} 
 					author={this.props.article.author}
 					date={this.props.article.date}
@@ -31,7 +37,7 @@ class PreviewArticle extends React.Component{
 
 function Heading(props){
 	return(
-		<div>
+		<div >
 			<h2 className='prev-title'>{props.title}</h2>
 			<span className='prev-author-date'>{props.author} : {props.date}</span>
 		</div>

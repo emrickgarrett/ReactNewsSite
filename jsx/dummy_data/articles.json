@@ -1,6 +1,7 @@
 {
 "articles":[
 				{
+					"id": "0",
 					"title": "Example News Article",
 					"author": "John Doe",
 					"date": "December 12th, 2016",
@@ -8,6 +9,7 @@
 					"image": "http://domaingang.com/wp-content/uploads/2012/02/example.png"		
 				},
 				{
+					"id": "1",
 					"title": "How to create a News Site",
 					"author": "Garrett Emrick",
 					"date": "December 11th, 2016",

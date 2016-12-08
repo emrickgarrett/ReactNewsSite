@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {hashHistory} from 'react-router'
 
 import FullArticle from "../components/article_components/FullArticle.jsx"
 import PreviewArticle from "../components/article_components/PreviewArticle.jsx"
@@ -16,21 +15,10 @@ class Home extends React.Component{
 		};
 	}
 
-	articleClicked(num){
-		hashHistory.push('/article?article_id=' + num);
-	}
-
 	render(){
-
-		var styles = {
-			inlineBlock:{
-				display:"inline-block"
-			}
-		}
-
 		return(
-		<div onClick={() => this.articleClicked(1)} style={styles.inlineBlock}>
-			<PreviewArticle  article={this.state.articles[1]}/>
+		<div className='article-container'>
+			{this.state.articles.map((article, i) => <PreviewArticle key = {i} article = {article} />)}
 		</div>
 		);	
 	}
