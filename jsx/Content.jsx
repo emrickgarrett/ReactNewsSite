@@ -10,8 +10,10 @@ class Content extends React.Component{
 	render(){
 		return(
 		<div>
-			<DefaultHeader/>	
-			{this.props.children}
+			<DefaultHeader/>
+			<div className='page_content'>	
+				{this.props.children}
+			</div>
 		</div>
 		);	
 	}

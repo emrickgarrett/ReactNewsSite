@@ -9,7 +9,7 @@ class DefaultHeader extends React.Component{
 	render(){
 		return(
 		<div className="header">
-			<a href="#">ReactNews</a>
+			<Link to='home'>ReactNews</Link>
 			<Navigation/>
 		</div>
 		);	
