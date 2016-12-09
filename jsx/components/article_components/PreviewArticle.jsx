@@ -16,6 +16,7 @@ class PreviewArticle extends React.Component{
 		var styles = {
 			divBackground: {
 				background: '#000 url(' + this.props.article.image + ') top left no-repeat',
+				backgroundPosition: "center",
 				backgroundSize: 'cover',
 				maxWidth:'20em',
 				maxHeight:'20em',

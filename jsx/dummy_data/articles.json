@@ -18,35 +18,43 @@
 				},
 				{
 					"id": "2",
-					"title": "How to create a News Site",
-					"author": "Garrett Emrick",
-					"date": "December 11th, 2016",
+					"title": "Hot Dogs: Fruit?",
+					"author": "Jane Doe",
+					"date": "December 4th, 2016",
 					"story": "Lorem Ipsum Dolerum BLah",
-					"image": "http://pad1.whstatic.com/images/thumb/a/af/Write-a-News-Article-Step-3-Version-2.jpg/aid1093007-728px-Write-a-News-Article-Step-3-Version-2.jpg"
+					"image": "http://www.wienerschnitzel.com/wp-content/uploads/2014/10/hotdog_mustard-main.jpg"
 				},
 				{
 					"id": "3",
-					"title": "How to create a News Site",
-					"author": "Garrett Emrick",
-					"date": "December 11th, 2016",
+					"title": "Is Trump Part Horse?",
+					"author": "Jane Doe",
+					"date": "November 28th, 2016",
 					"story": "Lorem Ipsum Dolerum BLah",
-					"image": "http://pad1.whstatic.com/images/thumb/a/af/Write-a-News-Article-Step-3-Version-2.jpg/aid1093007-728px-Write-a-News-Article-Step-3-Version-2.jpg"
+					"image": "http://static3.businessinsider.com/image/56feb17752bcd01b008ba4e8-480/donald-trump.jpg"
 				},
 				{
 					"id": "4",
-					"title": "How to create a News Site",
-					"author": "Garrett Emrick",
-					"date": "December 11th, 2016",
+					"title": "99% of the internet is false",
+					"author": "Hugh Mungus",
+					"date": "December 1st, 2016",
 					"story": "Lorem Ipsum Dolerum BLah",
-					"image": "http://pad1.whstatic.com/images/thumb/a/af/Write-a-News-Article-Step-3-Version-2.jpg/aid1093007-728px-Write-a-News-Article-Step-3-Version-2.jpg"
+					"image": "http://blogs-images.forbes.com/jacobmorgan/files/2014/05/internet-of-things-2.jpg?width=960"
 				},
 				{
 					"id": "5",
-					"title": "How to create a News Site",
-					"author": "Garrett Emrick",
-					"date": "December 11th, 2016",
+					"title": "Kurt Cobain is alive and well",
+					"author": "Seymore Butts",
+					"date": "December 4th, 2016",
 					"story": "Lorem Ipsum Dolerum BLah",
-					"image": "http://pad1.whstatic.com/images/thumb/a/af/Write-a-News-Article-Step-3-Version-2.jpg/aid1093007-728px-Write-a-News-Article-Step-3-Version-2.jpg"
+					"image": "http://www.mtv.com/crop-images/2013/08/19/kurt_cobain.jpg"
+				},
+				{
+					"id" : "6",
+					"title": "Can Dogs Talk?",
+					"author" : "Joe Momma",
+					"date" : "June 7th, 2016",
+					"story" : "Lorem Ipsum Dolorum Blah",
+					"image" : "https://images-na.ssl-images-amazon.com/images/G/01/img15/pet-products/small-tiles/23695_pets_vertical_store_dogs_small_tile_8._CB312176604_.jpg"
 				}
 			]
 }
