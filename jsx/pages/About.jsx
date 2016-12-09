@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import PageHeader from "../components/PageHeader.jsx";
+
 class About extends React.Component{
 	constructor(){
 		super();
@@ -8,7 +10,7 @@ class About extends React.Component{
 	render(){
 		return(
 		<div>
-			<p>This is the About Page!</p>
+			<PageHeader title="About This Site"/>
 		</div>
 		);	
 	}

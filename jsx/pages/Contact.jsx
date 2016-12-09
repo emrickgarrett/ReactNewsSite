@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import PageHeader from '../components/PageHeader.jsx';
+
 class Contact extends React.Component{
 	constructor(){
 		super();
@@ -8,7 +10,7 @@ class Contact extends React.Component{
 	render(){
 		return(
 		<div>
-			<p>This is the Contact Page!</p>
+			<PageHeader title="Contact Me"/>
 		</div>
 		);	
 	}
