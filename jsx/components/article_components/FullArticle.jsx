@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {hashHistory} from 'react-router'
+import PageHeader from "../PageHeader.jsx";
+
 
 class FullArticle extends React.Component{
 	constructor(){
@@ -40,7 +42,7 @@ class FullArticle extends React.Component{
 function Heading(props){
 	return(
 		<div>
-			<h2>{props.title}</h2>
+			<PageHeader title={props.title}/>
 			<h4>{props.author} : {props.date}</h4>
 		</div>
 	);

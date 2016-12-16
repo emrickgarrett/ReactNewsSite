@@ -11,6 +11,12 @@ class Contact extends React.Component{
 		return(
 		<div>
 			<PageHeader title="Contact Me"/>
+			<div>
+				<h3>Garrett Emrick</h3>
+				<h3>Github: EmrickGarrett </h3>
+				<h3>Email: emrickgarrett@gmail.com</h3>
+				<h3>LinkedIn: <a target="_" href="https://www.linkedin.com/in/emrickgarrett">https://www.linkedin.com/in/emrickgarrett</a></h3>
+			</div>
 		</div>
 		);	
 	}
